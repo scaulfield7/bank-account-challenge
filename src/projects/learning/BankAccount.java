@@ -12,44 +12,44 @@ public class BankAccount {
         return accountNumber;
     }
 
-    public double getAccountBalance() {
-        return accountBalance;
-    }
-
-    public String getFirstName() {
-        return firstName;
-    }
-
-    public String getLastName() {
-        return lastName;
-    }
-
-    public String getEmailAddress() {
-        return emailAddress;
-    }
-
-    public String getPhoneNumber() {
-        return phoneNumber;
-    }
-
     public void setAccountNumber(String accountNumber) {
         this.accountNumber = accountNumber;
+    }
+
+    public double getAccountBalance() {
+        return accountBalance;
     }
 
     public void setAccountBalance(double accountBalance) {
         this.accountBalance = accountBalance;
     }
 
+    public String getFirstName() {
+        return firstName;
+    }
+
     public void setFirstName(String firstName) {
         this.firstName = firstName;
+    }
+
+    public String getLastName() {
+        return lastName;
     }
 
     public void setLastName(String lastName) {
         this.lastName = lastName;
     }
 
+    public String getEmailAddress() {
+        return emailAddress;
+    }
+
     public void setEmailAddress(String emailAddress) {
         this.emailAddress = emailAddress;
+    }
+
+    public String getPhoneNumber() {
+        return phoneNumber;
     }
 
     public void setPhoneNumber(String phoneNumber) {
